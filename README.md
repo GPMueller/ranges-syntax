@@ -1,6 +1,19 @@
 Shorthand syntax for creation and usage of ranges
 =================================================
 
+This document tries to define a reasonable and meaningful definition of a more concise syntax for
+creating and using ranges in C++.
+Using ranges of iterable containers is currently quite cumbersome. Eric Niebler's range library
+improves on a lot of the present problems, but a more concise way of writing mathematical and
+numerical code would be a great improvement. Especially with respect to slicing of multidimensional
+data arrays, a more pythonic syntax of ranges would make code shorter and easier to read.
+
+As references, see for example
+- http://ericniebler.com/2014/12/07/a-slice-of-python-in-c/
+- http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2017/n4671.pdf
+- https://www.reddit.com/r/cpp/comments/6ngkgc/2017_toronto_iso_c_committee_discussion_thread/
+
+
 Python
 -------------------------------------------------
 
